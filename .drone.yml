@@ -30,7 +30,7 @@ pipeline:
    
   deploy:
     image: appleboy/drone-ssh
-    host: stewart.people22.com
+    host: kenneth.people22.com
     username: ec2-user
     secrets: 
       - source: awskey
